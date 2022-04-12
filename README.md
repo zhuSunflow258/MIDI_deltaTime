@@ -1,10 +1,10 @@
 
-これはSMF(Standard MIDI Files)を解析する時に使える小さいなiOSアプリ（swift５）です。
+これはSMF(Standard MIDI Files)を解析する時に使える小さいなアプリ（swift５,python3対応）です。
 MIDI Filesの中にデルタタイム(delta time)という重要な構成要素があります。
 デルタタイムは、次に続くイベントまでの時間を表す時間情報のことで、可変長形式で表されます。
-ここでは10進数からデルタタイムの可変長形式へ変換できます。
+ここでは10進数からデルタタイム(可変長形式)を計算できます。
 参考のため、10進数から普通の16進数に変換した結果も表示されます。
-Pythonで同じ内容のGUIアプリも作りました（deltaTimeGUI.pyを参考）。
+Python３で同じ内容のGUIアプリも作りました（deltaTimeGUI.pyを参考）。
 作者：朱　珠(Zhu Zhu)
 
 
